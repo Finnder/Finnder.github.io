@@ -1,0 +1,511 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+h1 {
+  color: rgb(240,240,240);
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  font-family: "Title_Font";
+  font-size: 60px;
+  background-color: rgba(200, 200, 200, 0.2);
+  letter-spacing: 10px;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+/* Custome Font Website */
+@font-face {
+  font-family: "Title_Font";
+  src: url("Fonts/Gameplay.ttf");
+}
+
+/* Column */
+.column{
+  text-align: center;
+  margin: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 280px;
+  padding: 25px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(255,255,255, 1);
+}
+
+/* Dividers */
+.divider_solid{
+  border-top: 3px solid #bbb;
+}
+
+/* Index.html page, Glow Buttons */
+#resume_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(240, 0, 0, 1);
+  font-family: "Title_Font";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  overflow: hidden;
+  transition: 0.15s;
+}
+#resume_button:hover{
+  color: rgba(240, 0, 0, 1);
+  background: rgba(240, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(240, 0, 0, 1), 0 0 40px rgba(240, 0, 0, 1), 0 0 80px rgba(240, 0, 0, 1);
+}
+#resume_button:active{
+  color: rgba(240, 0, 0, 1);
+  background: rgba(240, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(240, 0, 0, 1), 0 0 40px rgba(240, 0, 0, 1), 0 0 80px rgba(240, 0, 0, 1);
+}
+
+#games_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(140, 255, 102, 1);
+  font-family: "Title_Font";
+  margin: auto;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.15s;
+}
+#games_button:hover{
+  color: rgba(140, 255, 102, 1);
+  background:  rgba(140, 255, 102, 0.5);
+  box-shadow: 0 0 10px rgba(140, 255, 102, 1), 0 0 40px rgba(140, 255, 102, 1), 0 0 80px rgba(140, 255, 102, 1);
+}
+#games_button:active{
+  color: rgba(140, 255, 102, 1);
+  background: rgba(140, 255, 102, 0.5);
+  box-shadow: 0 0 10px rgba(140, 255, 102, 1), 0 0 40px rgba(140, 255, 102, 1), 0 0 80px rgba(140, 255, 102, 1);
+}
+
+#github_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(200, 200, 200, 1);
+  font-family: "Title_Font";
+  font-size: 35px;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.15s;
+}
+#github_button:hover{
+  color: rgba(200, 200, 200, 1);
+  background: rgba(180, 180, 180, 0.5);
+  box-shadow: 0 0 10px rgba(200, 200, 200, 1), 0 0 40px rgba(200, 200, 200, 1), 0 0 80px rgba(200, 200, 200, 1);
+}
+#github_button:active{
+  color: rgba(200, 200, 200, 1);
+  background: rgba(200, 200, 200, 0.5);
+  box-shadow: 0 0 10px rgba(200, 200, 200, 1), 0 0 40px rgba(200, 200, 200, 1), 0 0 80px rgba(200, 200, 200, 1);
+}
+
+#signup_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(154, 246, 255, 1);
+  font-family: "Title_Font";
+  font-size: 23px;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.15s;
+}
+#signup_button:hover{
+  color: rgba(70, 235 ,253, 1);
+  background: rgba(70, 235 ,253, 0.5);
+  box-shadow: 0 0 10px rgba(70, 235 ,253, 1), 0 0 40px rgba(70, 235 ,253, 1), 0 0 80px rgba(70, 235 ,253, 1);
+}
+#signup_button:active{
+  color: rgba(70, 235 ,253, 1);
+  background: rgba(70, 235 ,253, 0.5);
+  box-shadow: 0 0 10px rgba(70, 235 ,253, 1), 0 0 40px rgba(70, 235 ,253, 1), 0 0 80px rgba(70, 235 ,253, 1);
+}
+
+#contactme_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(255, 166, 77, 1);
+  font-family: "Title_Font";
+  font-size: 23px;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.10s;
+}
+#contactme_button:hover{
+  color: rgba(255, 166, 77, 1);
+  background: rgba(255, 166, 77, 0.5);
+  box-shadow: 0 0 10px rgba(255, 166, 77, 1), 0 0 40px rgba(255, 166, 77, 1), 0 0 80px rgba(255, 166, 77, 1);
+}
+#contactme_button:active{
+  color: rgba(255, 166, 77, 1);
+  background: rgba(255, 166, 77, 0.5);
+  box-shadow: 0 0 10px rgba(255, 166, 77, 1), 0 0 40px rgba(255, 166, 77, 1), 0 0 80px rgba(255, 166, 77, 1);
+}
+
+#portfolio_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(204, 51, 255);
+  font-family: "Title_Font";
+  font-size: 23px;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.10s;
+}
+
+#portfolio_button:hover{
+  color: rgb(204, 51, 255);
+  background: rgba(204, 51, 255, 0.5);
+  box-shadow: 0 0 10px rgba(204, 51, 255, 1), 0 0 40px rgba(204, 51, 255, 1), 0 0 80px rgba(204, 51, 255, 1);
+}
+
+#portfolio_button:active{
+  color: rgb(204, 51, 255);
+  background: rgba(204, 51, 255, 0.5);
+  box-shadow: 0 0 10px rgba(204, 51, 255, 1), 0 0 40px rgba(204, 51, 255, 1), 0 0 80px rgba(204, 51, 255, 1);
+}
+
+#personal_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(51, 51, 255);
+  font-family: "Title_Font";
+  font-size: 23px;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.10s;
+}
+
+#personal_button:hover{
+  color: rgb(51, 51, 255);
+  background: rgba(51, 51, 255, 0.5);
+  box-shadow: 0 0 10px rgba(51, 51, 255, 1), 0 0 40px rgba(51, 51, 255, 1), 0 0 80px rgba(51, 51, 255, 1);
+}
+
+#personal_button:active{
+  color: rgb(51, 51, 255);
+  background: rgba(51, 51, 255, 0.5);
+  box-shadow: 0 0 10px rgba(51, 51, 255, 1), 0 0 40px rgba(51, 51, 255, 1), 0 0 80px rgba(51, 51, 255, 1);
+}
+/* Sign Up and Log In Page */
+#LogIn-SignUp{
+  font-size: 20px;
+  text-align: center;
+}
+
+/* CLASSES */
+.errors{
+  font-family: 'Syne Mono', monospace;
+  font-size: 15px;
+}
+.inputFields{
+  font-size: 20px;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 2px;
+
+}
+.simpletitle{
+  font-family: "Title_Font";
+  font-size: 15px;
+  letter-spacing: 9px;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+  text-decoration: underline;
+}
+.simplebuttons{
+  color: #494949;
+  font-family: 'Syne Mono', monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 9px;
+  border: 2px solid #494949;
+  display: inline-block;
+  transition: all 0.1s ease 0s;
+}
+.simplebuttons:hover{
+  color: white;
+  background: rgba(230, 0, 0, 0.5);
+  border-color: rgba(200, 0, 0, 0.4);
+  transition: all 0.2s ease 0s;
+}
+
+.simpletext{
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+#userMessageToAdmin{
+  font-size: 15px;
+}
+
+#errors_signup{
+  color: red;
+}
+#errors_login{
+  color: red;
+}
+
+#title1{
+  background-color: rgba(0, 255, 0, 0.5);
+}
+#title2{
+  background-color: rgba(0, 255, 153, 0.5);
+}
+#title3{
+  background-color: rgba(0, 255, 153, 0.5);
+}
+
+#submit_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(140, 255, 102, 1);
+  font-family: "Title_Font";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.15s;
+  user-select: none;
+}
+#submit_button:hover{
+  color: rgba(140, 255, 102, 1);
+  background:  rgba(140, 255, 102, 0.5);
+  box-shadow: 0 0 10px rgba(140, 255, 102, 1), 0 0 40px rgba(140, 255, 102, 1), 0 0 80px rgba(140, 255, 102, 1);
+}
+#submit_button:active{
+  color: rgba(140, 255, 102, 1);
+  background: rgba(140, 255, 102, 0.5);
+  box-shadow: 0 0 10px rgba(140, 255, 102, 1), 0 0 40px rgba(140, 255, 102, 1), 0 0 80px rgba(140, 255, 102, 1);
+}
+
+#submit_button_login{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(0, 255, 153, 1);
+  font-family: "Title_Font";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.15s;
+}
+#submit_button_login:hover{
+  color: rgba(0, 255, 153, 1);
+  background:  rgba(10, 255, 153, 0.5);
+  box-shadow: 0 0 10px rgba(0, 255, 153, 1), 0 0 40px rgba(0, 255, 153, 1), 0 0 80px rgba(0, 255, 153, 1);
+}
+#submit_button_login:active{
+  color: rgba(0, 255, 153, 1);
+  background: rgba(0, 255, 153, 0.5);
+  box-shadow: 0 0 10px rgba(0, 255, 153, 1), 0 0 40px rgba(0, 255, 153, 1), 0 0 80px rgba(0, 255, 153, 1);
+}
+
+#googleLoginButton{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(0, 204, 255, 1);
+  font-family: "Title_Font";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.15s;
+}
+#googleLoginButton:hover{
+  color: rgba(0, 204, 255, 1);
+  background:  rgba(0, 204, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 204, 255, 1), 0 0 40px rgba(0, 204, 255, 1), 0 0 80px rgba(0, 204, 255, 1);
+}
+#googleLoginButton:active{
+  color: rgba(0, 204, 255, 1);
+  background: rgba(0, 204, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 204, 255, 1), 0 0 40px rgba(0, 204, 255, 1), 0 0 80px rgba(0, 204, 255, 1);
+}
+
+/* Welcome Page */
+#userEmailID{
+  text-align: center;
+  font-size: 18px;
+  font-family: "Title_Font";
+  color: #D66853;
+  letter-spacing: 2px;
+}
+#userUID{
+  text-align: center;
+  font-size: 15px;
+  font-family: "Title_Font";
+  color: #7D4E57;
+  letter-spacing: 2px;
+}
+
+#welcomeTitle{
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#welcomepagebody{
+  background-color: #11151C;
+}
+
+#profileInfo{
+  text-align: center;
+  top: 180px;
+  margin: auto;
+  align-self: center;
+  height: 17%;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 40%;
+  padding: 25px;
+  border-color: rgba(255,255,255, 1);
+}
+#divider-profile{
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+#confirmButton:hover{
+  color: black;
+  border-color: white;
+  background-color: rgba(200, 255, 200, 1);
+}
+
+#personlization-section{
+  text-align: center;
+  align-self: center;
+  height: 250px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 40%;
+  padding: 30px;
+  border-color: rgba(255,255,255, 1);
+}
+
+#signout_button{
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgba(200, 0, 0, 0.8);
+  font-family: "Title_Font";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 43.5%;
+  margin-right: 20%;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: visible;
+  transition: 0.15s;
+  bottom: 15px;
+}
+#signout_button:hover{
+  color: rgba(200, 0, 0, 1);
+  background:  rgba(200, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(200, 0, 0, 0.5), 0 0 40px rgba(200, 0, 0, 0.5), 0 0 80px rgba(200, 0, 0, 0.5);
+}
+#signout_button:active{
+  color: rgba(200, 0, 0, 1);
+  background: rgba(200, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(200, 0, 0, 0.8), 0 0 40px rgba(200, 0, 0, 0.8), 0 0 80px rgba(200, 0, 0, 0.8);
+}
+
+/* Contact Page */
+#columnContact{
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    height:37%;
+    background-color: rgba(255, 140, 26, 0.8);
+    width: 30%;
+    padding: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(255,255,255, 1);
+  }
+#secondary-column{
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  height: 35%;
+  background-color: rgba(255, 140, 26, 0.5);
+  width: 80%;
+  padding: 25px;
+  border-style: hidden;
+  border-radius: 2px;
+  border-color: rgba(255, 140, 26, 1);
+}
+#title_contact{
+  font-family: "Title_Font";
+  font-size: 30px;
+  letter-spacing: 10px;
+  background-color: inherit;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+}
+.section_contact{
+  font-size: 16px;
+  font-family: "Arial";
+  color: white;
+  letter-spacing: 3px;
+}
+
+/* Portfolio Page */
