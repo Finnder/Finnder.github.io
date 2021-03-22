@@ -66,7 +66,6 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(240, 0, 0, 1);
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
@@ -91,7 +90,6 @@ h1 {
   color: rgba(140, 255, 102, 1);
   margin: auto;
   font-size: 20px;
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
@@ -115,7 +113,6 @@ h1 {
   color: rgba(200, 200, 200, 1);
   font-size: 35px;
   margin: auto;
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
@@ -138,7 +135,6 @@ h1 {
   color: rgba(154, 246, 255, 1);
   font-size: 23px;
   margin: auto;
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
@@ -161,7 +157,6 @@ h1 {
   color: rgba(255, 166, 77, 1);
   font-size: 23px;
   margin: auto;
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
@@ -184,7 +179,6 @@ h1 {
   color: rgb(204, 51, 255);
   font-size: 23px;
   margin: auto;
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
@@ -209,7 +203,6 @@ h1 {
   color: rgb(51, 51, 255);
   font-size: 23px;
   margin: auto;
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
@@ -259,7 +252,6 @@ h1 {
   color: #494949;
   font-family: 'Syne Mono', monospace;
   font-size: 15px;
-  text-transform: uppercase;
   text-decoration: none;
   background: #ffffff;
   padding: 9px;
@@ -308,7 +300,6 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(140, 255, 102, 1);
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
@@ -332,7 +323,6 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(0, 255, 153, 1);
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
@@ -355,7 +345,6 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(0, 204, 255, 1);
-  text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
@@ -446,7 +435,6 @@ h1 {
   padding: 15px 30px;
   color: rgba(200, 0, 0, 0.8);
   font-family: "Title_Font";
-  text-transform: uppercase;
   letter-spacing: 4px;
   margin-left: 43.5%;
   margin-right: 20%;
