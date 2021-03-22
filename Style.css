@@ -30,22 +30,35 @@ h1 {
   src: url("Fonts/Gameplay.ttf");
 }
 
+/* ROBOTO - SIMPLE FONT */
+@font-face {
+  font-family: "Simple-Light";
+  src: url("Fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Simple-Regular";
+  src: url("Fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Simple-Thin";
+  src: url("Fonts/Roboto-Thin.ttf");
+}
+
 /* Column */
 .column{
   text-align: center;
   margin: auto;
   height: auto;
   background-color: rgba(0, 0, 0, 0.3);
-  width: 280px;
+  width: 350px;
   padding: 25px;
-  border-style: solid;
-  border-radius: 5px;
   border-color: rgba(255,255,255, 1);
+  font-family: "Simple-Regular";
 }
 
 /* Dividers */
 .divider_solid{
-  border-top: 3px solid #bbb;
+  border-top: 3px solid rgba(200, 200, 200, 0.2);
 }
 
 /* Index.html page, Glow Buttons */
@@ -53,14 +66,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(240, 0, 0, 1);
-  font-family: "Title_Font";
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
   font-size: 35px;
   overflow: hidden;
-  transition: 0.15s;
+  transition: 0.03s;
 }
 #resume_button:hover{
   color: rgba(240, 0, 0, 1);
@@ -77,15 +89,14 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(140, 255, 102, 1);
-  font-family: "Title_Font";
   margin: auto;
-  font-size: 35px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.15s;
+  transition: 0.03s;
 }
 #games_button:hover{
   color: rgba(140, 255, 102, 1);
@@ -102,14 +113,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(200, 200, 200, 1);
-  font-family: "Title_Font";
   font-size: 35px;
   margin: auto;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.15s;
+  transition: 0.03s;
 }
 #github_button:hover{
   color: rgba(200, 200, 200, 1);
@@ -126,14 +136,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(154, 246, 255, 1);
-  font-family: "Title_Font";
   font-size: 23px;
   margin: auto;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.15s;
+  transition: 0.03s;
 }
 #signup_button:hover{
   color: rgba(70, 235 ,253, 1);
@@ -150,14 +159,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(255, 166, 77, 1);
-  font-family: "Title_Font";
   font-size: 23px;
   margin: auto;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.10s;
+  transition: 0.03s;
 }
 #contactme_button:hover{
   color: rgba(255, 166, 77, 1);
@@ -174,14 +182,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgb(204, 51, 255);
-  font-family: "Title_Font";
   font-size: 23px;
   margin: auto;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.10s;
+  transition: 0.03s;
 }
 
 #portfolio_button:hover{
@@ -200,14 +207,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgb(51, 51, 255);
-  font-family: "Title_Font";
   font-size: 23px;
   margin: auto;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.10s;
+  transition: 0.03s;
 }
 
 #personal_button:hover{
@@ -302,14 +308,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(140, 255, 102, 1);
-  font-family: "Title_Font";
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   overflow: hidden;
-  transition: 0.15s;
+  transition: 0.03s;
   user-select: none;
 }
 #submit_button:hover{
@@ -327,7 +332,6 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(0, 255, 153, 1);
-  font-family: "Title_Font";
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
@@ -351,14 +355,13 @@ h1 {
   display: inline-block;
   padding: 15px 30px;
   color: rgba(0, 204, 255, 1);
-  font-family: "Title_Font";
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   overflow: hidden;
-  transition: 0.15s;
+  transition: 0.08s;
 }
 #googleLoginButton:hover{
   color: rgba(0, 204, 255, 1);
@@ -375,7 +378,6 @@ h1 {
 #userEmailID{
   text-align: center;
   font-size: 18px;
-  font-family: "Title_Font";
   color: #D66853;
   letter-spacing: 2px;
 }
