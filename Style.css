@@ -1,8 +1,30 @@
 body {
-  background-color: rgb(30, 30, 30);
+  background: #222023;
+  margin: 0rem;
+  min-height: 100vh;
 }
+#canvas, #text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+#text h1 {
+  opacity: 0.95
+}
+
+.icon-image {
+  padding: 25px;
+}
+
 h1 {
-  color: rgb(240,240,240);
+  color: rgb(255,255,255);
   text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -16,10 +38,8 @@ h1 {
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
   font-family: "Title_Font";
-  font-size: 60px;
-  background-color: rgba(200, 200, 200, 0.2);
-  letter-spacing: 10px;
-  padding: 10px;
+  font-size: 80px;
+  letter-spacing: 13px;
   align-self: center;
   text-align: center;
 }
@@ -49,16 +69,18 @@ h1 {
   text-align: center;
   margin: auto;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 350px;
-  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 68%;
+  padding: 9px;
   border-color: rgba(255,255,255, 1);
   font-family: "Simple-Regular";
+  color: white;
 }
 
 /* Dividers */
 .divider_solid{
-  border-top: 3px solid rgba(200, 200, 200, 0.2);
+  border-top: 3px solid rgba(150, 150, 150, 0.1);
+  width: 60%;
 }
 
 /* Index.html page, Glow Buttons */
@@ -295,6 +317,7 @@ h1 {
 #title3{
   background-color: rgba(0, 255, 153, 0.5);
 }
+
 
 #submit_button{
   display: inline-block;
