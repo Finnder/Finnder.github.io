@@ -81,7 +81,7 @@ h2 {
   margin: auto;
   height: auto;
   background-color: rgba(0, 0, 0, 0.2);
-  width: 68%;
+  width: fit-content;
   padding: 9px;
   border-color: rgba(255,255,255, 1);
   font-family: "Simple-Regular";
