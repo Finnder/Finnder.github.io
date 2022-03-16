@@ -532,4 +532,25 @@ h2 {
   letter-spacing: 3px;
 }
 
-/* Portfolio Page */
+.githubcommits img {
+
+    border-radius: 2px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+    padding: 5px;
+    background-color: rgb(20, 20, 20);
+
+}
+
+.githubcommits h3 {
+    color: white;
+    font-family:"Simple-Light";
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    width:fit-content;
+
+}
